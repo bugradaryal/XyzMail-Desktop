@@ -84,4 +84,5 @@ Forms (UI)  →  Services (business logic)  →  DataDbContext (EF Core / MySQL)
 4. Restore NuGet packages and build in Visual Studio.
 5. Run — on first launch EF Core will create the database schema from the current model/migrations.
 
-> **Note:** Gmail requires an **App Password** (not your regular account password) for SMTP/IMAP access when 2‑Step Verification is enabled on the Google account.
+> **Note:** Gmail requires an **App Password** (not your regular account password) for SMTP/IMAP access when 2‑Step Verification is enabled on the Google account. 
+ 
