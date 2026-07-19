@@ -13,7 +13,7 @@ namespace mail
 
         public int kisi_no { get; set; }
 
-        public DateTimeOffset mail_yollama_tarhi { get; set; }
+        public DateTime mail_yollama_tarhi { get; set; }
 
         [MaxLength(1000)]
         public string gonderilen_mail_konu { get; set; }

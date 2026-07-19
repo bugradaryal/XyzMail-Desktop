@@ -1015,7 +1015,7 @@ namespace mail
                         id = id,
                         baslik = message.Subject,
                         icerik = text,
-                        tarih = (DateTimeOffset)message.Date,
+                        tarih = (DateTime)message.Date.DateTime,
                         yollayan = message.From.ToString(),
                     });
                     if (message.Attachments != null)

@@ -8,7 +8,7 @@ namespace mail.DTO
         public int id { get; set; }
         public int unid { get; set; }
         public string yollayan { get; set; }
-        public DateTimeOffset tarih { get; set; }
+        public DateTime tarih { get; set; }
         public string baslik { get; set; }
         public string icerik { get; set; }
     }

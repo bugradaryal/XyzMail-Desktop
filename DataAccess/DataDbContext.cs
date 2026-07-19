@@ -18,7 +18,7 @@ namespace mail
             if (!optionsBuilder.IsConfigured)
             {
                 string connString = ConfigurationManager.AppSettings["MailDbConnection"];
-                optionsBuilder.UseSqlServer(connString);
+                optionsBuilder.UseMySql(connString);
             }
         }
 

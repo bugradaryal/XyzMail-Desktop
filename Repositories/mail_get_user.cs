@@ -17,7 +17,7 @@ namespace mail
         [MaxLength(100)]
         public string yollayan_kisi { get; set; }
 
-        public DateTimeOffset mail_alma_tarhi { get; set; }
+        public DateTime mail_alma_tarhi { get; set; }
 
         [MaxLength(1000)]
         public string alınan_mail_konu { get; set; }
