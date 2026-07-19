@@ -85,8 +85,3 @@ Forms (UI)  →  Services (business logic)  →  DataDbContext (EF Core / MySQL)
 5. Run — on first launch EF Core will create the database schema from the current model/migrations.
 
 > **Note:** Gmail requires an **App Password** (not your regular account password) for SMTP/IMAP access when 2‑Step Verification is enabled on the Google account.
-
-## Known limitations
-
-- Gmail is currently the only supported provider (IMAP/SMTP hosts are hardcoded to `imap.gmail.com` / `smtp.gmail.com`).
-- Credentials are stored in plain text in `Secrets.config`; this is fine for local development but not intended for distribution.
